@@ -73,12 +73,8 @@ $(document).ready(function () {
       $("<td>").text(trainName),
       $("<td>").text(destination),
       $("<td>").text(tFrequency),
-
       $("<td>").text(moment(nextTrain).format("hh:mm")),
       $("<td>").text(tMinutesTillTrain),
-
-
-
     );
 
     $("table").append(newRow);
